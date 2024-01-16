@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1c98888b586e38c409d1ee870d45dec3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Robot Invaders
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 206a9d535acb3df42abf5d8bc1b04352, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,538 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1705344533679695, "dur": 950286, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344533679818, "dur": 12318, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344533692139, "dur": 49675, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344533741817, "dur": 386029, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344534127849, "dur": 492243, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344534620094, "dur": 9886, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344534631171, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1705344533916751, "dur": 180221, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705344533918189, "dur": 69088, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705344534066926, "dur": 7069, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705344534073999, "dur": 22957, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705344534075128, "dur": 20792, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705344534110772, "dur": 1921, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705344534104542, "dur": 8190, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344534632106, "dur": 488, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1705344534170008, "dur":1579, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534171593, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1705344534171665, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1705344534171682, "dur":737, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1705344534172486, "dur":826, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534173312, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601441, "dur":129, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601570, "dur":110, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601680, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601688, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601707, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601710, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601717, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601720, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601728, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601730, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601737, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601739, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601746, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601748, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601756, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601758, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601766, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601791, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534601828, "dur":2013, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1705344534172660, "dur":662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534173322, "dur":6065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534179401, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1705344534179750, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534179820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534182558, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1705344534185717, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1705344534185773, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534185816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534186211, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1705344534188653, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff.exe" }}
+,{ "pid":12345, "tid":1, "ts":1705344534188726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534188733, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff.exe" }}
+,{ "pid":12345, "tid":1, "ts":1705344534191581, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534191714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534191724, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534196326, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534196598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534196618, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534201139, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534201459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534201473, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534204837, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534205010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534205019, "dur":4327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534209415, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534209662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534209674, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534214274, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534214395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534214403, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534217271, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534217390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534217402, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534220186, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534220317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534220326, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534224451, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534224563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534224572, "dur":4234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534228851, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534228970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534228979, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534233247, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534233663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534233673, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534237621, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534237677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534237686, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534240907, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534241046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534241056, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534244195, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534244331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534244342, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705344534248296, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1705344534248349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534248386, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1705344534251149, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1705344534251206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534251216, "dur":6411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1705344534257681, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1705344534257735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705344534257742, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1705344534261630, "dur":339808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534172967, "dur":446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534173414, "dur":5970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534179400, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1705344534179748, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534179810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534182617, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1705344534185452, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1705344534185515, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534185558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534185569, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1705344534187239, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1705344534187298, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534187335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534187342, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1705344534188987, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1705344534189048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534189624, "dur":11300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1705344534200978, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534201489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534201578, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534205510, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534205650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534205659, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534209472, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534209666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534209676, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534212414, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534212521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534212530, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534215830, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534215983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534215994, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534219119, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534219245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534219254, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534221502, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534221636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534221645, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534225007, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534225106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534225113, "dur":4758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534229918, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534230076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534230085, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534234965, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534235030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534235038, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534239026, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534239096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534239110, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534243447, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534243553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534243565, "dur":9103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705344534252722, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1705344534252778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705344534252787, "dur":27013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1705344534279865, "dur":321577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534172770, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534173334, "dur":6054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534179400, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1705344534179503, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534179736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534181774, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1705344534185729, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1705344534185787, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534186016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534186221, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1705344534188417, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1705344534188508, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534188543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534188578, "dur":6152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1705344534194793, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534194903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534194910, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534199217, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534199351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534199361, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534202450, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534202696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534202705, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534207535, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534207694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534207709, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534210898, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534211057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534211069, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534213698, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534213861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534213871, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534217248, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534217391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534217402, "dur":3672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534221117, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534221220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534221227, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534223880, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534224016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534224057, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534227121, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534227270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534227279, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534231994, "dur":3853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534235851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534235861, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534239177, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534239319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534239328, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534242765, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534242929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534242938, "dur":3695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534246689, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534247299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534247307, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705344534249681, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1705344534249766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534249775, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1705344534253421, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1705344534253479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534253487, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1705344534257487, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1705344534257539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534257587, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1705344534261190, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1705344534261248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705344534261257, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1705344534264028, "dur":337443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534172922, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534173401, "dur":5985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534179401, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1705344534179510, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534179786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534182199, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1705344534185391, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1705344534185445, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534185506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534185517, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1705344534187240, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1705344534187291, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534187324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534187332, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1705344534189358, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534189729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534190003, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534194559, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534194718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534194730, "dur":5212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534199990, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534200123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534200132, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534202786, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534202904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534202912, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534207575, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534207750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534207759, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534213505, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534213647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534213658, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534218107, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534218229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534218237, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534221626, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534221878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534221887, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534224593, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534224730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534224739, "dur":4874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534229669, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534229796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534229805, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534233389, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534234408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534234419, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534239357, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534239702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534239716, "dur":6338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534246109, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534246234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534246246, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705344534250292, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1705344534250419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534250428, "dur":5812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1705344534256293, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1705344534256496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534256508, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1705344534259912, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1705344534259963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705344534259973, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1705344534263798, "dur":337665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534173091, "dur":330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534173422, "dur":5986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534179409, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1705344534179581, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534179799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534181917, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1705344534185588, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1705344534185636, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534185675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534185687, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1705344534187647, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534187702, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534187765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534188035, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534190754, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534190948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534191013, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534194637, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534194755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534194763, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534199323, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534199455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534199463, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534201699, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534201857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534201898, "dur":4653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534206649, "dur":2383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534209039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534209053, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534211560, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534211705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534211714, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534214906, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534215038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534215048, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534217506, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534217631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534217639, "dur":4100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534221797, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534221906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534221914, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534227075, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534227205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534227213, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534231274, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534232166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534232176, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534235581, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534235637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534235645, "dur":5877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534241585, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534241640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534241648, "dur":4920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534246614, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534246714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534246722, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705344534249824, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1705344534249933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534249941, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1705344534253399, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1705344534253456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705344534253464, "dur":347881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1705344534601408, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1705344534601410, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534173138, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534173434, "dur":5975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534179410, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1705344534179559, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534179754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534181988, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1705344534185643, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1705344534185708, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534185754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534186158, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1705344534188345, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534188407, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534188606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534188614, "dur":28994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534217659, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534217947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534217956, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534221478, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534221674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534221682, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534225240, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534225409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534225419, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534228816, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534228927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534228936, "dur":5391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534234381, "dur":2133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534236542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534236552, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534241204, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534241328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534241338, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534244542, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534244676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534244686, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705344534248753, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705344534248809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534248817, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705344534252530, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705344534252607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534252640, "dur":7520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705344534260202, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1705344534260241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705344534260248, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1705344534263937, "dur":337499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534173276, "dur":208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534173485, "dur":5904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534179400, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1705344534179507, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534179765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534181792, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1705344534185617, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1705344534185675, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534185724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534186826, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1705344534188334, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534188390, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534188429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534188505, "dur":13454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534202018, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534202154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534202163, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534205535, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534205671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534205680, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534211109, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534211249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534211258, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534217432, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534217559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534217567, "dur":4273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534222211, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534222560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534222569, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534224560, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534224676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534224684, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534227035, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534227185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534227196, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534231256, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534231466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534231477, "dur":6007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534237539, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534237602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534237614, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534241298, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534241409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534241417, "dur":4989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534246460, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534246518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534246528, "dur":8047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705344534254626, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1705344534255091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534255100, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1705344534256962, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1705344534257041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534257052, "dur":4342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1705344534261445, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1705344534261592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705344534261601, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1705344534265996, "dur":335454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534173315, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534173316, "dur":6065, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534179401, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1705344534179432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534180273, "dur":483, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1705344534180765, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1705344534180833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534181113, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1705344534184755, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1705344534184820, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534184861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534184935, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1705344534186793, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1705344534186846, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534187113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534187321, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1705344534189081, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534189740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534191077, "dur":6549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534197685, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534197820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534197830, "dur":6937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534204820, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534204992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534205003, "dur":7807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534212960, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534213707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534213715, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534217331, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534217457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534217466, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534220838, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534220959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534220968, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534223962, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534224134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534224143, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534227186, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534227314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534227322, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534231292, "dur":1222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534232519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534232527, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534235706, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534235764, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534235777, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534239204, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534239329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534239338, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534242428, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534242539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534242549, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705344534247567, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1705344534247619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534247712, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1705344534249491, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1705344534249545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534249553, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1705344534252695, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1705344534252740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534252749, "dur":4706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1705344534257515, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1705344534257586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534257594, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1705344534261552, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1705344534261758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705344534261766, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/JasminJowie/Downloads/del/BlastOff LATEST DRAFT2/BlastOff_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1705344534264736, "dur":336717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705344534605792, "dur":3736, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1705344534632676, "dur": 1076, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705344534631133, "dur": 2648, "ph": "X", "name": "Write chrome-trace events", "args": {} },
